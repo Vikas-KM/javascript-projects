@@ -1,3 +1,5 @@
+// Add authors and make quotes as array of objects
+
 const quotes = [
   "Man needs his difficulties because they are necessary to enjoy success.",
   "You have to dream before your dreams can come true.",
