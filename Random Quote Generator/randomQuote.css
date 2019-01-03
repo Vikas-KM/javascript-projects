@@ -1,0 +1,11 @@
+p {
+  display: inline;
+}
+
+button {
+  display: block;
+}
+
+#quotation {
+  font-display: 140px;
+}
