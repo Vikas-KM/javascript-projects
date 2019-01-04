@@ -7,21 +7,57 @@ body {
   background-color: cornflowerblue;
 }
 
-#main-area {
+.container {
+  /* display: flex; */
+  width: 400px;
+  background-color: aliceblue;
   margin: auto;
   text-align: center;
+  /* margin-top: 30%; */
 }
 
-table {
-  margin: auto;
+#main-area {
+  /* width: auto; */
+  margin: 20px;
+  justify-content: center;
+}
+
+h4 {
   padding: 10px;
-  background-color: antiquewhite;
-  margin-top: 35vh;
-}
-table tr td {
-  padding: 0.3em;
+  margin: 10px;
+  font-size: 1.2em;
 }
 
-#ErrorVal {
+#messageText {
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#messageText:focus {
+  outline: none;
+}
+
+#submitBtn {
+  padding: 10px;
+  width: 50%;
+  font-size: 1.2em;
+}
+
+#submitBtn:hover {
+  color: white;
+  background-color: black;
+  outline: none;
+}
+
+#feedback {
+  color: red;
   display: none;
+}
+
+#messageVal {
+  color: darkgoldenrod;
+  font-size: 2em;
+  box-sizing: border-box;
 }

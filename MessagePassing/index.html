@@ -8,21 +8,17 @@
     <title>Message Passing</title>
   </head>
   <body>
-    <div id="main-area">
-      <table>
-        <tr>
-          <td id="inputArea"><input type="text" id="text" /></td>
-        </tr>
-        <tr>
-          <td id="submitBtn"><button type="button" id="btn">Submit</button></td>
-        </tr>
-        <tr>
-          <td id="ErrorVal"><h3 id="error">Print Error Value</h3></td>
-        </tr>
-        <tr>
-          <td id="outputVal"><h3 id="output">Hello</h3></td>
-        </tr>
-      </table>
+    <div class="container">
+      <div id="main-area">
+        <h4>Enter the Message to be passed</h4>
+        <form>
+          <input type="text" id="messageText" />
+          <button type="button" id="submitBtn">Submit</button>
+        </form>
+        <h4 id="feedback">Empty string entered!!!</h4>
+        <h4>Your Entered Message is</h4>
+        <h4 id="messageVal">Hello World</h4>
+      </div>
     </div>
   </body>
   <script src="messagePassing.js"></script>
