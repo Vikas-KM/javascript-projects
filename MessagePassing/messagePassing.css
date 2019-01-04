@@ -8,16 +8,13 @@ body {
 }
 
 .container {
-  /* display: flex; */
   width: 400px;
   background-color: aliceblue;
   margin: auto;
   text-align: center;
-  /* margin-top: 30%; */
 }
 
 #main-area {
-  /* width: auto; */
   margin: 20px;
   justify-content: center;
 }
@@ -32,11 +29,13 @@ h4 {
   padding: 10px;
   margin: 10px auto;
   width: 100%;
+  font-size: 1.2em;
   box-sizing: border-box;
 }
 
 #messageText:focus {
   outline: none;
+  background-color: yellow;
 }
 
 #submitBtn {
@@ -52,7 +51,8 @@ h4 {
 }
 
 #feedback {
-  color: red;
+  color: black;
+  background-color: hotpink;
   display: none;
 }
 
