@@ -14,6 +14,7 @@
 
       if (text.length === 0) {
         document.getElementById("feedback").style.display = "block";
+        //Timeout function to remove the error message after 2 seconds
         setTimeout(function() {
           document.getElementById("feedback").style.display = "none";
         }, 2000);
