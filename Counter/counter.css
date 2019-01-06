@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1.2em;
+  margin: auto;
+  margin-top: 20vh;
+  background-color: coral;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.counterArea {
+  padding: 1.2em;
+}
+
+#CounterTitle {
+  font-size: 5em;
+}
+
+#counter {
+  font-size: 10em;
+  text-align: center;
+}
+
+.btnClass {
+  font-size: 1.2em;
+  padding: 1em;
+  width: 49%;
+  background-color: darkslategray;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btnClass:hover {
+  background-color: teal;
+}
