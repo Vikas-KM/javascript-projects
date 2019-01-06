@@ -26,13 +26,13 @@ blockquote p {
   font-size: 1.2em;
 }
 
-#quoteArea {
+#quote-area {
   width: 400px;
   margin: auto;
   padding-top: 35vh;
 }
 
-#quoteArea button {
+#quote-area button {
   margin: auto;
   padding: 1em;
   font-size: 1em;
@@ -41,7 +41,7 @@ blockquote p {
   cursor: pointer;
 }
 
-#quoteArea button:focus {
+#quote-area button:focus {
   outline: none;
 }
 
