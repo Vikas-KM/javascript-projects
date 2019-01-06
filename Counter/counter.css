@@ -15,12 +15,12 @@
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
-.counterArea {
+.counter-area {
   padding: 1.2em;
   box-sizing: border-box;
 }
 
-#CounterTitle {
+#counter-title {
   font-size: 5em;
 }
 
@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.btnClass {
+.btn-class {
   font-size: 1.2em;
   padding: 1em;
   width: 49%;
@@ -39,7 +39,7 @@
   color: white;
 }
 
-.btnClass:hover {
+.btn-class:hover {
   background-color: teal;
   box-shadow: 2px 2px 4px #000;
 }

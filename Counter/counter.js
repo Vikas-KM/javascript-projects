@@ -4,7 +4,7 @@
   //Inital counter value to be 0
   let counterVal = 0;
   //listen to the events of the buttons, hence queryselector all
-  const buttons = document.querySelectorAll(".btnClass");
+  const buttons = document.querySelectorAll(".btn-class");
   //counter is the text where we will update the counter Value
   const counter = document.getElementById("counter");
   //loop through the node list to listen to the events
