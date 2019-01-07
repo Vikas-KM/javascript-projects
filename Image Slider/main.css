@@ -1,29 +1,48 @@
-*{
-  margin:0;
-  padding:2px;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
   max-width: 1100px;
   position: relative;
-  margin:auto;
+  margin: auto;
 }
 
-.prev, .next{
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
-  top:45%;
-  padding:10px;
-  color:white;
-  border-radius: 0 3px 3px 0;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+  top: 45%;
 }
 
-.next{
-  right:0;
+.next {
+  right: 0;
 }
 
-.prev:hover, .next:hover{
-  color:black;
+.prev:hover,
+.next:hover {
+  color: black;
   background-color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .prev,
+  .next {
+    font-size: 12px;
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .prev,
+  .next {
+    font-size: 9px;
+    top: 30%;
+  }
 }
