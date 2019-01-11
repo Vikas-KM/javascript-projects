@@ -10,13 +10,13 @@
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('images/background.jpeg') center/cover no-repeat fixed;
-  display: flex;
+  display: block;
 }
 
 .btn {
   /*  display: flex;*/
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 5%;
   cursor: pointer;
   color: cadetblue;
@@ -29,36 +29,44 @@
 
 .testimonial {
   margin: auto;
-  background-color: rgba(240, 255, 255, 0.6);
+  background-color: rgba(240, 255, 255, 0.2);
 }
 
-.testimonial .pic {
+.testimonial .customer-pic {
   border-radius: 50%;
   display: block;
   margin: 0.3rem auto;
   padding: 0.3rem;
 }
 
-.testimonial .description {
+.testimonial .customer-review {
   padding: 0.5rem 2rem;
   font-size: 1.1rem;
   font-style: italic;
   font-weight: 100;
+  color: whitesmoke;
 }
 
-.testimonial .name {
+.testimonial .customer-name {
   text-align: center;
   padding: 0.5rem;
   font-size: 1.8rem;
-  color: darkred;
+  color: tomato;
   text-transform: uppercase;
 }
 
-.testimonial .title {
+.testimonial .customer-title {
   text-align: center;
   margin: auto;
   padding: 0.5rem;
   font-weight: 600;
-  color: darkblue;
+  color: chartreuse;
   text-transform: uppercase;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  /* min-height: 10vh; */
+  padding-bottom: 1rem;
 }
