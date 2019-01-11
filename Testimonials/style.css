@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.main {
+  position: relative;
+  padding: 15%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/background.jpeg') center/cover no-repeat fixed;
+  display: flex;
+}
+
+.btn {
+  /*  display: flex;*/
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  cursor: pointer;
+  color: cadetblue;
+  font-size: 5rem;
+}
+
+.next {
+  left: 90%;
+}
+
+.testimonial {
+  margin: auto;
+  background-color: rgba(240, 255, 255, 0.6);
+}
+
+.testimonial .pic {
+  border-radius: 50%;
+  display: block;
+  margin: 0.3rem auto;
+  padding: 0.3rem;
+}
+
+.testimonial .description {
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.testimonial .name {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  color: darkred;
+  text-transform: uppercase;
+}
+
+.testimonial .title {
+  text-align: center;
+  margin: auto;
+  padding: 0.5rem;
+  font-weight: 600;
+  color: darkblue;
+  text-transform: uppercase;
+}
