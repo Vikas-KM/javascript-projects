@@ -71,7 +71,6 @@
         document.getElementById('customer-pic').src = customers[index].img;
         document.getElementById('customer-name').textContent =
           customers[index].name;
-        console.log(index);
         document.getElementById('customer-title').textContent =
           customers[index].title;
         document.getElementById('customer-review').textContent =
