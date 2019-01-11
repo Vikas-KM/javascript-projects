@@ -32,14 +32,14 @@
   background-color: rgba(240, 255, 255, 0.2);
 }
 
-.testimonial .customer-pic {
+.testimonial #customer-pic {
   border-radius: 50%;
   display: block;
   margin: 0.3rem auto;
   padding: 0.3rem;
 }
 
-.testimonial .customer-review {
+.testimonial #customer-review {
   padding: 0.5rem 2rem;
   font-size: 1.1rem;
   font-style: italic;
@@ -47,7 +47,7 @@
   color: whitesmoke;
 }
 
-.testimonial .customer-name {
+.testimonial #customer-name {
   text-align: center;
   padding: 0.5rem;
   font-size: 1.8rem;
@@ -55,18 +55,17 @@
   text-transform: uppercase;
 }
 
-.testimonial .customer-title {
+.testimonial #customer-title {
   text-align: center;
   margin: auto;
   padding: 0.5rem;
-  font-weight: 600;
-  color: chartreuse;
+  font-size: 1rem;
+  color: gold;
   text-transform: uppercase;
 }
 
 h1 {
   color: white;
   text-align: center;
-  /* min-height: 10vh; */
   padding-bottom: 1rem;
 }
