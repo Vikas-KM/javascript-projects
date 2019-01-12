@@ -10,11 +10,12 @@
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('images/background.jpeg') center/cover no-repeat fixed;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
+
 .btn {
-  /*  display: flex;*/
   position: absolute;
   top: 45%;
   left: 5%;
@@ -27,9 +28,11 @@
   left: 90%;
 }
 
+
 .testimonial {
   margin: auto;
   background-color: rgba(240, 255, 255, 0.2);
+  display:flex;
 }
 
 .testimonial #customer-pic {
