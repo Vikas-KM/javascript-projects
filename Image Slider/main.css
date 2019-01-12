@@ -8,6 +8,7 @@
   max-width: 1100px;
   position: relative;
   margin: auto;
+  display: flex;
 }
 
 .prev,
@@ -15,9 +16,9 @@
   cursor: pointer;
   position: absolute;
   padding: 10px;
-  color: white;
+  color: tomato;
   border-radius: 3px;
-  font-size: 16px;
+  font-size: 36px;
   top: 45%;
 }
 
@@ -27,22 +28,6 @@
 
 .prev:hover,
 .next:hover {
-  color: black;
+  color: tomato;
   background-color: white;
-}
-
-@media only screen and (max-width: 500px) {
-  .prev,
-  .next {
-    font-size: 12px;
-    top: 40%;
-  }
-}
-
-@media only screen and (max-width: 200px) {
-  .prev,
-  .next {
-    font-size: 9px;
-    top: 30%;
-  }
 }
