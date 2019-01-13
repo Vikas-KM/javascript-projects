@@ -17,6 +17,10 @@ body {
   display: flex;
   background-color: #333;
   padding: 0 7%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 a {
@@ -36,7 +40,8 @@ a:hover {
 
 .images-area {
   padding: 0 7%;
-  margin-top: 10px;
+  margin-top: 65px;
+  margin-bottom: 10px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
