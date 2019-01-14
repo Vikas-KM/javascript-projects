@@ -28,4 +28,23 @@
 })();
 
 //if anyone uses searchbar to filter
-(function() {})();
+(function() {
+  const search = document.getElementById('search-item');
+  //   console.log(search);
+  search.addEventListener('keyup', function() {
+    //removing white spaces and converting to lowercase
+    let value = search.value.toLowerCase().trim();
+    // console.log(value);
+    //select all the items
+    const items = document.querySelectorAll('.all');
+    items.forEach(function(item) {
+      let type = item.dataset.item;
+      //   console.log(typeof type);
+      if (type.startsWith(value)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+})();
