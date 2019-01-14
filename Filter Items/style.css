@@ -15,12 +15,20 @@ body {
 
 .navbar {
   display: flex;
-  background-color: #333;
+  flex-direction: column;
+  background-color: beige;
   padding: 0 7%;
   position: fixed;
   top: 0;
   width: 100%;
   overflow: hidden;
+}
+
+.navbar-items {
+  display: flex;
+  /*  justify-content: center;*/
+  align-content: center;
+  background-color: #333;
 }
 
 a {
@@ -37,6 +45,45 @@ a:hover {
   background-color: white;
   color: black;
   border-radius: 5px;
+}
+
+.search-form {
+  margin: auto;
+  /*  max-width: 600px;*/
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  margin: 8px;
+}
+
+form {
+  /*   display: flex;*/
+}
+
+form input {
+  padding: 0.5rem;
+  border: 1px solid grey;
+  background: #f1f1f1;
+  font-size: 17px;
+  float: left;
+  width: 80%;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  padding: 0.5rem;
+  background: #333;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  float: left;
+  width: 20%;
 }
 
 .images-area {
@@ -62,7 +109,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 500px) {
-  .navbar {
+  .navbar-items {
     flex-direction: column;
   }
   a {

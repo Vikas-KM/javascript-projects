@@ -4,18 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Filter Items</title>
   </head>
   <body>
     <div class="main-container">
       <nav class="navbar">
-        <a class="filter-btn" data-filter="all" href="#">All</a>
-        <a class="filter-btn" data-filter="cakes" href="#">Cakes</a>
-        <a class="filter-btn" data-filter="cupcakes" href="#">CupCakes</a>
-        <a class="filter-btn" data-filter="doughnuts" href="#">DoughNuts</a>
-        <a class="filter-btn" data-filter="sweets" href="#">Sweets</a>
+        <div class="navbar-items">
+          <a class="filter-btn" data-filter="all" href="#">All</a>
+          <a class="filter-btn" data-filter="cakes" href="#">Cakes</a>
+          <a class="filter-btn" data-filter="cupcakes" href="#">CupCakes</a>
+          <a class="filter-btn" data-filter="doughnuts" href="#">DoughNuts</a>
+          <a class="filter-btn" data-filter="sweets" href="#">Sweets</a>
+        </div>
+
+        <div class="search-form">
+          <form>
+            <input type="text" placeholder="search..." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
       </nav>
+
       <div class="images-area">
         <div class="all cakes">
           <img src="images/cake-1.jpeg" alt="cakes" />
