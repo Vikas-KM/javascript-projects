@@ -22,6 +22,7 @@ body {
   top: 0;
   width: 100%;
   overflow: hidden;
+  /* box-sizing: border-box; */
 }
 
 .navbar-items {
@@ -53,12 +54,13 @@ a:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-
-  margin: 8px;
+  /* box-sizing: border-box; */
+  margin: 8px 0;
 }
 
 form {
   /*   display: flex;*/
+  width: 600px;
 }
 
 form input {
@@ -67,7 +69,7 @@ form input {
   background: #f1f1f1;
   font-size: 17px;
   float: left;
-  width: 80%;
+  width: 85%;
 }
 
 form input:focus {
@@ -83,7 +85,7 @@ form button {
   border-left: none;
   cursor: pointer;
   float: left;
-  width: 20%;
+  width: 15%;
 }
 
 .images-area {
@@ -113,6 +115,8 @@ form button {
     flex-direction: column;
   }
   a {
+    text-align: left;
+    padding-left: 5%;
     width: auto;
   }
   .images-area {

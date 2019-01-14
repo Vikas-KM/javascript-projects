@@ -1,3 +1,4 @@
+//below IIFE if anyone clicks on the links for filter
 (function() {
   const filterBtn = document.querySelectorAll('.filter-btn');
   //   console.log(filterBtn);
@@ -25,3 +26,6 @@
     });
   });
 })();
+
+//if anyone uses searchbar to filter
+(function() {})();
