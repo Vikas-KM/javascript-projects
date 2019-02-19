@@ -4,4 +4,4 @@ to explore more and learn more.
 
 # PROJECT 01
 
-**[BACKGROUND CHANGER](/Background-Changer/)**
+**[BACKGROUND CHANGER](https://vikas-km.github.io/javascript-projects/Background-Changer/index.html)**
